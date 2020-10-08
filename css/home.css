@@ -72,16 +72,20 @@ body{
 	font-size: 20px;
 }
 
-
-
 .social-media{
 	display: grid;
 	grid-template-areas:
 	'1 2 3 4';
-	gap: 2vw;
-	margin-left: 39vw;
-	margin-right: 39vw;
-	margin-top: 6vw;
-	
+	gap: 1px;
+	padding-left: 30vw;
+	padding-right: 30vw;
+	background-color: #dddddd;
+	width: 40vw;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
+.block6, .block7, .block8, .block9{
+	z-index: 1;
+}
