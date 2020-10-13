@@ -82,6 +82,12 @@ a {
 	width: 90%;
 }
 
+iframe{
+	position: absolute;
+	top:15%;
+	left:5%;
+}
+
 .p2 {
 	font-family: 'IBM Plex Sans', sans-serif;
 	position: absolute;
@@ -184,7 +190,7 @@ a {
 	font-family: 'IBM Plex Sans', sans-serif;
 	color: #000;
 	font-size: 1.6rem;
-	top: 67%;
+	top: 60%;
 	padding-left: 2.5vw;
 }
 
@@ -192,7 +198,7 @@ a {
 	position: absolute;
 	font-family: 'Open Sans', sans-serif;
 	color: #000;
-	top: 73%;
+	top: 65%;
 	padding-left: 2.5vw;
 	width: 80%;
 	font-size: 1.15rem;
@@ -252,7 +258,7 @@ h4 {
 	}
 
 	.card-tall-2 {
-		grid-row: span 7 / auto;
+		grid-row: span 5 / auto;
 	}
 	
 	.card-wide-large {
@@ -280,7 +286,7 @@ h4 {
 		width: 35vw;
 		left: 2%;
 		padding-left: 1.5%;
-		top: 88%;
+		top: 85%;
 	}
 
 	.button-1 h3 {
@@ -298,9 +304,9 @@ h4 {
 	}
 
 	.p2 {
-		left: 1%;
+		left: 3%;
 		padding-left: 1.5%;
-		top: 75%;
+		top: 90%;
 		width: 80%;
 		font-size: 1.3rem;
 	}
@@ -308,6 +314,8 @@ h4 {
 	.website-name {
 		font-size: 1.3rem;
 		font-family: 'Open Sans', sans-serif;
+		top: -20px;
+		display: none;
 	}
 
 	.button-2 {
@@ -371,7 +379,7 @@ h4 {
 		font-family: 'IBM Plex Sans', sans-serif;
 		font-size: 1.3rem;
 		padding-left: 3.8vw;
-		top: 62%;
+		top: 70%;
 	}
 
 	#p5 {
@@ -379,7 +387,7 @@ h4 {
 		font-family: 'IBM Plex Sans', sans-serif;
 		font-size: 1rem;
 		padding-left: 3.8vw;
-		top: 70%;
+		top: 75%;
 	}
 
 }
