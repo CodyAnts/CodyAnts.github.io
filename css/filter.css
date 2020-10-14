@@ -1,0 +1,113 @@
+
+/*filter content button text heading*/
+.filterDropBtn p {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    margin: auto;
+}
+
+/*main container holding all filter contents*/
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+/*main container of dropdown button*/
+.filterDropBtn {
+    background-color: #E24E26;
+    width: 256px;
+    height: 52px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+
+.arrow_img {
+    position: relative;
+    width: 6%;
+    float: right;
+    padding-right: 5%;
+    margin-top: -13px;
+    z-index: 0;
+    /*transform: rotate(270deg);*/
+}
+
+
+/*main container holding filter tags*/
+#filter {
+    /* display: none; */
+    width: 256px;
+    height: 470px;
+    padding-top: 8%;
+    text-align: center;
+    background-color: white;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0;
+    position:relative;
+    box-shadow: 0px 4px 4px 0px #dbdbdb;
+    z-index: 2;
+    
+}
+
+/*main button for tags*/
+.button {
+    position: relative;
+    background-color: #F3B69E;
+    color: rgb(255, 255, 255);
+    height: 38px;
+    width: 225px;
+    padding: 0% 3% 0% 3%;
+    margin-left: 6%;
+    margin-right:6%;
+    margin-bottom: 5%;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0px 4px 6px 0px #e8e8e8;
+}
+
+
+/*doesnt stay selected if clicked outside of element*/
+.button:focus{
+    background-color: #E24E26;
+}
+
+.selected{
+  background-color: #E24E26;
+}
+
+/*container holding relevant content to the tag chosen
+.filterTag {
+    background-color: #2196F3;
+    color: #ffffff;
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+    display: none;  /*Hidden by default 
+    transition: ease 0.2s;
+  }*/
+  
+/*    
+.container{
+  position: absolute;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+} */
+
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+ 
