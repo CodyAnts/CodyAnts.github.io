@@ -97,7 +97,7 @@ a.underlined{
 	padding-right: 30vw;
 	width: 20vw;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 50px;
 	padding-bottom: 10px;
 }
 
@@ -135,8 +135,9 @@ a:hover{
 		position: relative;
 		padding-bottom: 6vh;
 	}
+
 	.social-media img{
-		width:40px;
+		width:35px;
 	}
 	.social-media{
 		position: absolute;
@@ -162,7 +163,8 @@ a:hover{
 
 footer {
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	padding-top: 30px;
 }
 footer h2 {
 	font-size: 1.1em;
