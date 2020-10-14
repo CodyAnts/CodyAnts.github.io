@@ -92,56 +92,87 @@ a {
 	z-index: 1;
 	left: 40%;
 	top: 17%;
+	font-size: 1.4rem;
+}
 
+#p2{
+	position: absolute;
+	text-align: left;
+	color: 000;
+	z-index: 1;
+	left: 40%;
+	top: 17%;
+	font-size: 1.4rem;
 }
 
 
 .button-1 {
 	position: absolute;
-	background-color: #878787;
-	width: 10vw;
+	background-color: #5B94F5;
+	width: 7vw;
 	height: 5vh;
 	left: 58.5%;
 	top: 80%;
-	border-radius: 15px;
+	border-radius: 4px;
 
 }
 
 .button-2 {
 	position: absolute;
-	background-color: #878787;
-	width: 10vw;
+	background-color: #5B94F5;
+	width: 7vw;
 	height: 5vh;
 	left: 4%;
 	top: 80%;
-	border-radius: 15px;
+	border-radius: 4px;
 
 }
 
 
 #button-3 {
 	position: absolute;
-	background-color: #878787;
-	width: 10vw;
+	background-color: #5B94F5;
+	width: 7vw;
 	height: 5vh;
 	left: 8%;
 	top: 80%;
-	border-radius: 15px;
+	border-radius: 4px;
 }
 
 #button-4 {
 	position: absolute;
-	background-color: #878787;
-	width: 10vw;
+	background-color: #5B94F5;
+	width: 7vw;
 	height: 5vh;
 	left: 4%;
 	top: 80%;
-	border-radius: 15px;
+	border-radius: 4px;
 
 }
 
+
+.button-1:hover {
+	background: #103475;
+  }
+
+  
+.button-2:hover {
+	background: #103475;
+  }
+
+  
+#button-3:hover {
+	background: #103475;
+  }
+
+  
+#button-4:hover {
+	background: #103475;
+  }
+
 .button-1 h3{
 	color: #fff;
+	top: -20px;
 } 
 
 .button-2 h3 {
@@ -196,17 +227,17 @@ a {
 	}
 
 	#p1 {
-		left: 1%;
+		left: 4%;
 		padding-left: 1.5%;
-		top: 55%;
+		top: 15%;
 		width: 80%;
 	}
 
 	.button-1 {
-		width: 35vw;
-		left: 2%;
+		width: 60vw;
+		height: 6vh;
+		left: 4%;
 		padding-left: 1.5%;
-		padding-top: 85%;
 	}
 
 	
@@ -223,18 +254,28 @@ a {
 		padding-left: 20px;
 	}
 
-	.p2 {
-		left: 1%;
+	.p2{
+		left: 4%;
 		padding-left: 1.5%;
 		top: 61%;
 		width: 80%;
 	}
 
-	.button-2 {
-		width: 35vw;
-		left: 2%;
+	#p2{
+		position: absolute;
+		left: 4%;
 		padding-left: 1.5%;
-		top: 92%;
+		top: 68%;
+		width: 80%;
+		font-size: 1.3rem;
+	}
+
+	.button-2 {
+		width: 60vw;
+		height: 6vh;
+		left: 4%;
+		padding-left: 1.5%;
+		top:94%;
 	}
 
 	.button-2 h3 {
@@ -244,10 +285,11 @@ a {
 	}
 
 	#button-3 {
-		width: 35vw;
-		left: 2%;
+		width: 60vw;
+		height: 6vh;
+		left: 4%;
 		padding-left: 1.5%;
-		top: 82%;
+		top:83%;
 	}
 
 	#button-3 h3 {
@@ -257,10 +299,11 @@ a {
 	}
 
 	#button-4 {
-		width: 35vw;
-		left: 2%;
+		width: 60vw;
+		height: 6vh;
+		left: 4%;
 		padding-left: 1.5%;
-		top: 81%;
+		top:83%;
 	}
 
 	#button-4 h3 {
@@ -270,12 +313,13 @@ a {
 	}
 
 	.p3 {
-		position: absolute;
 		display: block;
-		left: 1%;
+		position: absolute;
+		left: 4%;
 		padding-left: 1.5%;
 		top: 61%;
 		width: 80%;
+		font-size: 1.3rem;
 	}
 }
 	
@@ -286,11 +330,12 @@ a {
 		color: #000;
 	}
 	
-	h3 {
+	.p-heading {
 		color: #000;
 		padding-left: 1.6vw;
 		padding-top: 0.6vh;
 		font-family:'IBM Plex Sans', sans-serif;
+		font-size: 1.9rem;
 	}
 
 
