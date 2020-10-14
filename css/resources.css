@@ -17,11 +17,6 @@
     background-repeat: no-repeat;
 }
 
-.card:hover {
-    box-shadow: rgba(2,8,20,0.1) 0px 0.35em 1.175em, rgba(2,8,20,0.08) 0px 0.175em 0.5em;
-    transform: translate(-3px) scale(1.01);
-
-}
 
 .article-grid {
 	display: grid;
@@ -69,21 +64,33 @@ a {
 }
 
 #p1 {
+	font-size: 1.4rem;
 	position: absolute;
+	padding-left: 1vw;
 	text-align: left;
 	color: #000;
 	z-index: 1;
-	left: 54%;
 	margin-top: 7vh;
-	width: 35%;
+	width: 100%;
 }
+
+.space{
+	padding-left: 155px;
+}
+
+#p6 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: #000;
+	font-size: 2.4rem;
+}
+
 
 .p2 {
 	position: absolute;
 	text-align: left;
 	color: 000;
 	z-index: 1;
-	left: 38%;
+	left: 40%;
 	top: 17%;
 
 }
@@ -94,8 +101,8 @@ a {
 	background-color: #878787;
 	width: 10vw;
 	height: 5vh;
-	left: 56%;
-	top: 75%;
+	left: 58.5%;
+	top: 80%;
 	border-radius: 15px;
 
 }
@@ -199,8 +206,10 @@ a {
 		width: 35vw;
 		left: 2%;
 		padding-left: 1.5%;
-		top: 85%;
+		padding-top: 85%;
 	}
+
+	
 
 	.button-1 h3 {
 		font-size: 1.3rem;
@@ -286,5 +295,16 @@ a {
 
 
 
+	a h3 {
+		margin-left: 20px;
+		margin-top: 8px;
+	}
 
-
+	footer {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	footer h2 {
+		font-size: 1.1em;
+		font-family: 'IBM Plex Sans', sans-serif;;
+	}

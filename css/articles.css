@@ -121,6 +121,8 @@ a {
 
 }
 
+
+
 .button-2 {
 	position: absolute;
 	background-color: #878787;
@@ -315,6 +317,7 @@ h4 {
 		left: 2%;
 		padding-left: 1.5%;
 		top: 92%;
+		background-color: #878787;
 	}
 
 	.button-2 h3 {
@@ -384,8 +387,55 @@ h4 {
 
 }
 
+.btn2 {
+	color: white;
+	font-family:'IBM Plex Sans', sans-serif;
+	padding: 1px 10px 10px 10px;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	height: 12px;
+	border-radius: 10px;
+	text-align: center;
+	  }
+
+
+.btn2 h3 {
+	margin-left: -20px;
+	margin-top: -10px;
+}
+
+
+.none h1 {
+	font-size: 22px;
+	color: rgb(15, 15, 15);
+	font-family: 'IBM Plex Sans', sans-serif;;
+}
 
 
 
+.button-1 h3 {
+	margin-left: 18px;
+	margin-top: 7px;
+}
+
+.button-1 h2 {
+	margin-left: 26%;
+	margin-top: 100%;
+	color: white;
+	font-family:'IBM Plex Sans', sans-serif;
+	font-size: 0.85em;
+}
 
 
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+}
+footer h2 {
+	font-size: 1.1em;
+	font-family: 'IBM Plex Sans', sans-serif;;
+}

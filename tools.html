@@ -4,7 +4,9 @@
 		<!--Stylesheet-->
 	<link rel="stylesheet" href="css/resources.css">
 	<link rel="stylesheet" href="css/nav.css">
-		<!--Stylesheet-->
+	<link rel="stylesheet" href="css/filter.css">
+	<!--JS-->
+	<script src="js/javascript.js"></script>
 		
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +34,7 @@
 
 <!--------------NAV------->
 		
-<header class='header'>						<!------------------Header section-------------------------------->
+<header class='header'>				<!------------------Header section-------------------------------->
 	<div class="logo">
 		<li><a href="index.html"><h1>UX</h1><h2>HUB</h2></a></li>
 	</div>
@@ -58,16 +60,41 @@
 											<!----------------Optimal-------------------->
 	<section class="article-grid">
 		<div class="card"> <h3>Filter Content</h3></div>
-		<div class="card card-tall card-wide"> <h3>Tools</h3> <p>Resource page regarding User Experience design</p></div>
+
+				        <!--Start of filter system code-->
+						<div class="dropdown">
+							<!--Filter Content button-->
+						   <button class="filterDropBtn" onclick="filterBtn()"><p>Filter Content</p>
+							   <!--Dropdown arrow-->
+							  <img class="arrow_img" src="images/drop_down_arrow.svg"  alt="dropdown arrow">
+						  </button>
+						  
+				 <!--Main container holding tags-->
+				 <div id="filter">
+					<button id="abTest" class="button" onclick="filterSelection(this.id)">A/B Testing</button>
+					<button id="wireframing" class="button button2" onclick="filterSelection(this.id)">Wireframe</button>
+					<button id="userFlow" class="button button3" onclick="filterSelection(this.id)">User Flow</button>
+					<button id="prototyping" class="button button4" onclick="filterSelection(this.id)">Prototyping</button>
+					<button id="journeyMap" class="button button5" onclick="filterSelection(this.id)">Journey Map</button>
+					<button id="userTesting" class="button button6" onclick="filterSelection(this.id)">User Testing</button>
+					<button id="userResearch" class="button button7" onclick="filterSelection(this.id)">User Research</button>
+					</a><button id="pattern" class="button button8" onclick="filterSelection(this.id)">Browsing Pattern</button>
+					<button id="usability" class="button button9" onclick="filterSelection(this.id)">Usability Test</button>
+					<button id="collab" class="button button10" onclick="filterSelection(this.id)">Collaboration</button>
+				</div>
+			</div>
+
+		<div class="card card-tall card-wide"> <p id="p6"><strong>Tools & Resources</strong></p>
+			 <p id="p1" >Resource page regarding User Experience design</p></div>
 		<div class="card card-tall-large card-wide-large"> <h3>Optimal Workshop</h3> 
 			<a href="https://www.optimalworkshop.com/" target="_blank">
-				<img src="images/optimal-workshop.jpg" width="450px" height="280px"> 
-			</a>
-			<p id="p1"> Understand what matters most with our user research platform - transofrm insights into action, and make decisions with confidence.</p>	
+				<img src="images/optimal-workshop.jpg" width="450px" height="280px"></a>
+
+			<p class="p2 space"> Understand what matters most with our user research platform - transofrm insights into action, and make decisions with confidence.</p>	
 				<div class="button-1">
 					<a href="https://www.optimalworkshop.com/" target="_blank"> <h3>Read More</h3> </a>
 				</div>	
-		</div>
+			</div>
 											<!---------X------Optimal-------------X------>
 
 											<!----------------Miro----------------------->
@@ -123,7 +150,7 @@
 		</div>
 	</section>								<!-------X--------Flowmapp------------X---------->
 
-
+	<footer><h2>© UXHub 2020 IXXN221 Web Design. Made by Cody, Shiv, Issy, Hannah & Christian.</h2></footer>
 
 
 
