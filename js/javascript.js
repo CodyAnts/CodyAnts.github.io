@@ -35,7 +35,7 @@ function highlightItem() {
 // JS code that when tag is clicked, relevant content to the tag will show in the body
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("filterTag");
+  x = document.getElementsByClassName("card");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {

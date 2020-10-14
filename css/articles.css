@@ -11,6 +11,7 @@
     border-radius: 4px;
     transition: all 500ms;
 	overflow: hidden;
+	display: none;  /*Hidden by default */
 
     background-size: cover;
     background-position: center;
@@ -386,6 +387,9 @@ h4 {
 
 
 
-
-
+.abTest {
+	margin-left: 5vw;
+	background-color: rgb(88, 88, 88);
+	/*display: none;  Hidden by default */
+}
 
